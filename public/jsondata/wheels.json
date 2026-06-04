@@ -1,0 +1,1327 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "brand": "Tata",
+            "model": "Punch Pure",
+            "segment": "SUV",
+            "price": 650000,
+            "safety_rating": "5 Star",
+            "image": "/images/tata/punch.jpg"
+        },
+        {
+            "id": 2,
+            "brand": "Tata",
+            "model": "Punch Adventure",
+            "segment": "SUV",
+            "price": 720000,
+            "safety_rating": "5 Star",
+            "image": "/images/tata/punch.jpg"
+        },
+        {
+            "id": 3,
+            "brand": "Tata",
+            "model": "Punch Accomplished",
+            "segment": "SUV",
+            "price": 860000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/punch.jpg"
+        },
+        {
+            "id": 4,
+            "brand": "Tata",
+            "model": "Nexon Smart",
+            "segment": "SUV",
+            "price": 815000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 5,
+            "brand": "Tata",
+            "model": "Nexon Smart Plus",
+            "segment": "SUV",
+            "price": 940000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 6,
+            "brand": "Tata",
+            "model": "Nexon Pure",
+            "segment": "SUV",
+            "price": 1020000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 7,
+            "brand": "Tata",
+            "model": "Nexon Creative",
+            "segment": "SUV",
+            "price": 1180000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 8,
+            "brand": "Tata",
+            "model": "Nexon Fearless",
+            "segment": "SUV",
+            "price": 1350000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 9,
+            "brand": "Tata",
+            "model": "Nexon Dark Edition",
+            "segment": "SUV",
+            "price": 1450000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/nexon.jpg"
+        },
+        {
+            "id": 10,
+            "brand": "Tata",
+            "model": "Harrier Smart",
+            "segment": "SUV",
+            "price": 1549000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/harrier.jpg"
+        },
+        {
+            "id": 11,
+            "brand": "Tata",
+            "model": "Harrier Pure Plus",
+            "segment": "SUV",
+            "price": 1720000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/harrier.jpg"
+        },
+        {
+            "id": 12,
+            "brand": "Tata",
+            "model": "Harrier Adventure",
+            "segment": "SUV",
+            "price": 1980000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/harrier.jpg"
+        },
+        {
+            "id": 13,
+            "brand": "Tata",
+            "model": "Harrier Fearless",
+            "segment": "SUV",
+            "price": 2450000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/harrier.jpg"
+        },
+        {
+            "id": 14,
+            "brand": "Tata",
+            "model": "Safari Smart",
+            "segment": "SUV",
+            "price": 1619000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/safari.jpg"
+        },
+        {
+            "id": 15,
+            "brand": "Tata",
+            "model": "Safari Pure Plus",
+            "segment": "SUV",
+            "price": 1820000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/safari.jpg"
+        },
+        {
+            "id": 16,
+            "brand": "Tata",
+            "model": "Safari Adventure",
+            "segment": "SUV",
+            "price": 2150000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/safari.jpg"
+        },
+        {
+            "id": 17,
+            "brand": "Tata",
+            "model": "Safari Accomplished",
+            "segment": "SUV",
+            "price": 2350000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/safari.jpg"
+        },
+        {
+            "id": 18,
+            "brand": "Tata",
+            "model": "Safari Dark Edition",
+            "segment": "SUV",
+            "price": 2580000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/safari.jpg"
+        },
+        {
+            "id": 19,
+            "brand": "Tata",
+            "model": "Altroz XE",
+            "segment": "Hatchback",
+            "price": 665000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/altroz.jpg"
+        },
+        {
+            "id": 20,
+            "brand": "Tata",
+            "model": "Altroz XM",
+            "segment": "Hatchback",
+            "price": 735000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/altroz.jpg"
+        },
+        {
+            "id": 21,
+            "brand": "Tata",
+            "model": "Altroz XT",
+            "segment": "Hatchback",
+            "price": 825000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/altroz.jpg"
+        },
+        {
+            "id": 22,
+            "brand": "Tata",
+            "model": "Altroz XZ",
+            "segment": "Hatchback",
+            "price": 945000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/altroz.jpg"
+        },
+        {
+            "id": 23,
+            "brand": "Tata",
+            "model": "Altroz Racer",
+            "segment": "Sport Hatchback",
+            "price": 1140000,
+            "safety_rating": "5 Star",
+            "image": "images/tata/altroz.jpg"
+        },
+        {
+            "id": 24,
+            "brand": "Tata",
+            "model": "Tiago XE",
+            "segment": "Hatchback",
+            "price": 565000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tiago.jpg"
+        },
+        {
+            "id": 25,
+            "brand": "Tata",
+            "model": "Tiago XT",
+            "segment": "Hatchback",
+            "price": 635000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tiago.jpg"
+        },
+        {
+            "id": 26,
+            "brand": "Tata",
+            "model": "Tiago XZ",
+            "segment": "Hatchback",
+            "price": 720000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tiago.jpg"
+        },
+        {
+            "id": 27,
+            "brand": "Tata",
+            "model": "Tiago XZ Plus",
+            "segment": "Hatchback",
+            "price": 790000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tiago.jpg"
+        },
+        {
+            "id": 28,
+            "brand": "Tata",
+            "model": "Tigor XE",
+            "segment": "Sedan",
+            "price": 630000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tigor.jpg"
+        },
+        {
+            "id": 29,
+            "brand": "Tata",
+            "model": "Tigor XM",
+            "segment": "Sedan",
+            "price": 710000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tigor.jpg"
+        },
+        {
+            "id": 30,
+            "brand": "Tata",
+            "model": "Tigor XZ Plus",
+            "segment": "Sedan",
+            "price": 895000,
+            "safety_rating": "4 Star",
+            "image": "images/tata/tigor.jpg"
+        },
+        {
+            "id": 31,
+            "brand": "BMW",
+            "model": "X1 sDrive18i",
+            "segment": "SUV",
+            "price": 4950000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x1.jpg"
+        },
+        {
+            "id": 32,
+            "brand": "BMW",
+            "model": "X1 M Sport",
+            "segment": "SUV",
+            "price": 5290000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x1.jpg"
+        },
+        {
+            "id": 33,
+            "brand": "BMW",
+            "model": "X3 xDrive20d",
+            "segment": "SUV",
+            "price": 6870000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x3.jpg"
+        },
+        {
+            "id": 34,
+            "brand": "BMW",
+            "model": "X3 M Sport",
+            "segment": "SUV",
+            "price": 7450000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x3.jpg"
+        },
+        {
+            "id": 35,
+            "brand": "BMW",
+            "model": "X5 xDrive40i",
+            "segment": "Luxury SUV",
+            "price": 9690000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x5.jpg"
+        },
+        {
+            "id": 36,
+            "brand": "BMW",
+            "model": "X5 M Sport",
+            "segment": "Luxury SUV",
+            "price": 10500000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x5.jpg"
+        },
+        {
+            "id": 37,
+            "brand": "BMW",
+            "model": "X7 xDrive40d",
+            "segment": "Premium SUV",
+            "price": 12700000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x7.jpg"
+        },
+        {
+            "id": 38,
+            "brand": "BMW",
+            "model": "X7 M Sport",
+            "segment": "Premium SUV",
+            "price": 13400000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/x7.jpg"
+        },
+        {
+            "id": 39,
+            "brand": "BMW",
+            "model": "XM Plug-In Hybrid",
+            "segment": "Performance SUV",
+            "price": 26000000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/xm.jpg"
+        },
+        {
+            "id": 40,
+            "brand": "BMW",
+            "model": "320i Sport",
+            "segment": "Sedan",
+            "price": 4390000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/3series.jpg"
+        },
+        {
+            "id": 41,
+            "brand": "BMW",
+            "model": "330Li M Sport",
+            "segment": "Sedan",
+            "price": 5790000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/3series.jpg"
+        },
+        {
+            "id": 42,
+            "brand": "BMW",
+            "model": "520d Luxury Line",
+            "segment": "Luxury Sedan",
+            "price": 7290000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/5series.jpg"
+        },
+        {
+            "id": 43,
+            "brand": "BMW",
+            "model": "530i M Sport",
+            "segment": "Luxury Sedan",
+            "price": 7590000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/5series.jpg"
+        },
+        {
+            "id": 44,
+            "brand": "BMW",
+            "model": "740i M Sport",
+            "segment": "Premium Sedan",
+            "price": 18100000,
+            "safety_rating": "5 Star",
+            "image": "/images/bmw/7series.jpg"
+        },
+        {
+            "id": 45,
+            "brand": "BMW",
+            "model": "760i xDrive",
+            "segment": "Premium Sedan",
+            "price": 19500000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/7series.jpg"
+        },
+        {
+            "id": 46,
+            "brand": "BMW",
+            "model": "M5 Competition",
+            "segment": "Sports Sedan",
+            "price": 19900000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/m5.jpg"
+        },
+        {
+            "id": 47,
+            "brand": "BMW",
+            "model": "M2 Coupe",
+            "segment": "Sports Coupe",
+            "price": 10300000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/m2.jpg"
+        },
+        {
+            "id": 48,
+            "brand": "BMW",
+            "model": "M4 Competition",
+            "segment": "Sports Coupe",
+            "price": 15300000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/m4.jpg"
+        },
+        {
+            "id": 49,
+            "brand": "BMW",
+            "model": "M8 Competition",
+            "segment": "Super Coupe",
+            "price": 24400000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/m8.jpg"
+        },
+        {
+            "id": 50,
+            "brand": "BMW",
+            "model": "Z4 Roadster",
+            "segment": "Convertible",
+            "price": 9250000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/z4.jpg"
+        },
+        {
+            "id": 51,
+            "brand": "BMW",
+            "model": "i4 eDrive35",
+            "segment": "Electric Sedan",
+            "price": 7290000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/i4.jpg"
+        },
+        {
+            "id": 52,
+            "brand": "BMW",
+            "model": "i5 M60 xDrive",
+            "segment": "Electric Luxury Sedan",
+            "price": 12000000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/i5.jpg"
+        },
+        {
+            "id": 53,
+            "brand": "BMW",
+            "model": "i7 xDrive60",
+            "segment": "Electric Premium Sedan",
+            "price": 20300000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/i7.jpg"
+        },
+        {
+            "id": 54,
+            "brand": "BMW",
+            "model": "iX xDrive50",
+            "segment": "Electric SUV",
+            "price": 13900000,
+            "safety_rating": "5 Star",
+            "image": "images/bmw/ix.jpg"
+        },
+        {
+            "id": 55,
+            "brand": "Mahindra",
+            "model": "XUV300 W2",
+            "segment": "Compact SUV",
+            "price": 799000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv300.jpg"
+        },
+        {
+            "id": 56,
+            "brand": "Mahindra",
+            "model": "XUV300 W4",
+            "segment": "Compact SUV",
+            "price": 925000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv300.jpg"
+        },
+        {
+            "id": 57,
+            "brand": "Mahindra",
+            "model": "XUV300 W8",
+            "segment": "Compact SUV",
+            "price": 1420000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv300.jpg"
+        },
+        {
+            "id": 58,
+            "brand": "Mahindra",
+            "model": "XUV 3XO MX1",
+            "segment": "Compact SUV",
+            "price": 749000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv3xo.jpg"
+        },
+        {
+            "id": 59,
+            "brand": "Mahindra",
+            "model": "XUV 3XO AX5",
+            "segment": "Compact SUV",
+            "price": 1190000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv3xo.jpg"
+        },
+        {
+            "id": 60,
+            "brand": "Mahindra",
+            "model": "XUV 3XO AX7",
+            "segment": "Compact SUV",
+            "price": 1490000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv3xo.jpg"
+        },
+        {
+            "id": 61,
+            "brand": "Mahindra",
+            "model": "XUV700 MX",
+            "segment": "SUV",
+            "price": 1399000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv700.jpg"
+        },
+        {
+            "id": 62,
+            "brand": "Mahindra",
+            "model": "XUV700 AX3",
+            "segment": "SUV",
+            "price": 1690000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv700.jpg"
+        },
+        {
+            "id": 63,
+            "brand": "Mahindra",
+            "model": "XUV700 AX5",
+            "segment": "SUV",
+            "price": 2140000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv700.jpg"
+        },
+        {
+            "id": 64,
+            "brand": "Mahindra",
+            "model": "XUV700 AX7 Luxury",
+            "segment": "SUV",
+            "price": 2690000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuv700.jpg"
+        },
+        {
+            "id": 65,
+            "brand": "Mahindra",
+            "model": "Scorpio Classic S",
+            "segment": "SUV",
+            "price": 1360000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/scorpio.jpg"
+        },
+        {
+            "id": 66,
+            "brand": "Mahindra",
+            "model": "Scorpio Classic S11",
+            "segment": "SUV",
+            "price": 1750000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/scorpio.jpg"
+        },
+        {
+            "id": 67,
+            "brand": "Mahindra",
+            "model": "Scorpio N Z2",
+            "segment": "SUV",
+            "price": 1399000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/scorpion.jpg"
+        },
+        {
+            "id": 68,
+            "brand": "Mahindra",
+            "model": "Scorpio N Z4",
+            "segment": "SUV",
+            "price": 1690000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/scorpion.jpg"
+        },
+        {
+            "id": 69,
+            "brand": "Mahindra",
+            "model": "Scorpio N Z8",
+            "segment": "SUV",
+            "price": 2350000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/scorpion.jpg"
+        },
+        {
+            "id": 70,
+            "brand": "Mahindra",
+            "model": "Scorpio N Z8L",
+            "segment": "SUV",
+            "price": 2490000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/scorpion.jpg"
+        },
+        {
+            "id": 71,
+            "brand": "Mahindra",
+            "model": "Thar AX Opt",
+            "segment": "Off Road SUV",
+            "price": 1199000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/thar.jpg"
+        },
+        {
+            "id": 72,
+            "brand": "Mahindra",
+            "model": "Thar LX Hard Top",
+            "segment": "Off Road SUV",
+            "price": 1590000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/thar.jpg"
+        },
+        {
+            "id": 73,
+            "brand": "Mahindra",
+            "model": "Thar Earth Edition",
+            "segment": "Off Road SUV",
+            "price": 1720000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/thar.jpg"
+        },
+        {
+            "id": 74,
+            "brand": "Mahindra",
+            "model": "Thar Roxx MX1",
+            "segment": "Off Road SUV",
+            "price": 1499000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/tharroxx.jpg"
+        },
+        {
+            "id": 75,
+            "brand": "Mahindra",
+            "model": "Thar Roxx AX7L",
+            "segment": "Off Road SUV",
+            "price": 2490000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/tharroxx.jpg"
+        },
+        {
+            "id": 76,
+            "brand": "Mahindra",
+            "model": "Bolero B4",
+            "segment": "Utility SUV",
+            "price": 999000,
+            "safety_rating": "3 Star",
+            "image": "images/mahindra/bolero.jpg"
+        },
+        {
+            "id": 77,
+            "brand": "Mahindra",
+            "model": "Bolero B6",
+            "segment": "Utility SUV",
+            "price": 1090000,
+            "safety_rating": "3 Star",
+            "image": "images/mahindra/bolero.jpg"
+        },
+        {
+            "id": 78,
+            "brand": "Mahindra",
+            "model": "Bolero Neo N4",
+            "segment": "SUV",
+            "price": 1040000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/boleroneo.jpg"
+        },
+        {
+            "id": 79,
+            "brand": "Mahindra",
+            "model": "Bolero Neo N10",
+            "segment": "SUV",
+            "price": 1290000,
+            "safety_rating": "4 Star",
+            "image": "images/mahindra/boleroneo.jpg"
+        },
+        {
+            "id": 80,
+            "brand": "Mahindra",
+            "model": "BE.05 Electric",
+            "segment": "Electric SUV",
+            "price": 2500000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xbe.jpg"
+        },
+        {
+            "id": 81,
+            "brand": "Mahindra",
+            "model": "XUV.e8 Electric",
+            "segment": "Electric SUV",
+            "price": 3500000,
+            "safety_rating": "5 Star",
+            "image": "images/mahindra/xuve8.jpg"
+        },
+        {
+            "id": 82,
+            "brand": "Mahindra",
+            "model": "Bolero Pik-Up Extra Long",
+            "segment": "Pickup Truck",
+            "price": 960000,
+            "safety_rating": "3 Star",
+            "image": "images/mahindra/boleropikup.jpg"
+        },
+        {
+            "id": 83,
+            "brand": "Honda",
+            "model": "Amaze E",
+            "segment": "Sedan",
+            "price": 799000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/amaze.jpg"
+        },
+        {
+            "id": 84,
+            "brand": "Honda",
+            "model": "Amaze S",
+            "segment": "Sedan",
+            "price": 899000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/amaze.jpg"
+        },
+        {
+            "id": 85,
+            "brand": "Honda",
+            "model": "Amaze VX",
+            "segment": "Sedan",
+            "price": 1090000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/amaze.jpg"
+        },
+        {
+            "id": 86,
+            "brand": "Honda",
+            "model": "City SV",
+            "segment": "Sedan",
+            "price": 1190000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/city.jpg"
+        },
+        {
+            "id": 87,
+            "brand": "Honda",
+            "model": "City V",
+            "segment": "Sedan",
+            "price": 1320000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/city.jpg"
+        },
+        {
+            "id": 88,
+            "brand": "Honda",
+            "model": "City VX",
+            "segment": "Sedan",
+            "price": 1480000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/city.jpg"
+        },
+        {
+            "id": 89,
+            "brand": "Honda",
+            "model": "City ZX",
+            "segment": "Sedan",
+            "price": 1630000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/city.jpg"
+        },
+        {
+            "id": 90,
+            "brand": "Honda",
+            "model": "City Hybrid eHEV",
+            "segment": "Hybrid Sedan",
+            "price": 2010000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/cityhybrid.jpg"
+        },
+        {
+            "id": 91,
+            "brand": "Honda",
+            "model": "Elevate SV",
+            "segment": "SUV",
+            "price": 1150000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/elevate.jpg"
+        },
+        {
+            "id": 92,
+            "brand": "Honda",
+            "model": "Elevate V",
+            "segment": "SUV",
+            "price": 1280000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/elevate.jpg"
+        },
+        {
+            "id": 93,
+            "brand": "Honda",
+            "model": "Elevate VX",
+            "segment": "SUV",
+            "price": 1460000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/elevate.jpg"
+        },
+        {
+            "id": 94,
+            "brand": "Honda",
+            "model": "Elevate ZX",
+            "segment": "SUV",
+            "price": 1620000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/elevate.jpg"
+        },
+        {
+            "id": 95,
+            "brand": "Honda",
+            "model": "WR-V SV",
+            "segment": "Compact SUV",
+            "price": 899000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/wrv.jpg"
+        },
+        {
+            "id": 96,
+            "brand": "Honda",
+            "model": "WR-V VX",
+            "segment": "Compact SUV",
+            "price": 1120000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/wrv.jpg"
+        },
+        {
+            "id": 97,
+            "brand": "Honda",
+            "model": "CR-V Petrol CVT",
+            "segment": "Luxury SUV",
+            "price": 3400000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/crv.jpg"
+        },
+        {
+            "id": 98,
+            "brand": "Honda",
+            "model": "CR-V Diesel AWD",
+            "segment": "Luxury SUV",
+            "price": 3900000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/crv.jpg"
+        },
+        {
+            "id": 99,
+            "brand": "Honda",
+            "model": "Jazz V",
+            "segment": "Hatchback",
+            "price": 865000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/jazz.jpg"
+        },
+        {
+            "id": 100,
+            "brand": "Honda",
+            "model": "Jazz ZX",
+            "segment": "Hatchback",
+            "price": 989000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/jazz.jpg"
+        },
+        {
+            "id": 101,
+            "brand": "Honda",
+            "model": "Brio S",
+            "segment": "Hatchback",
+            "price": 540000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/brio.jpg"
+        },
+        {
+            "id": 102,
+            "brand": "Honda",
+            "model": "Brio VX",
+            "segment": "Hatchback",
+            "price": 690000,
+            "safety_rating": "4 Star",
+            "image": "images/honda/brio.jpg"
+        },
+        {
+            "id": 103,
+            "brand": "Honda",
+            "model": "Civic ZX",
+            "segment": "Sedan",
+            "price": 2290000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/civic.jpg"
+        },
+        {
+            "id": 104,
+            "brand": "Honda",
+            "model": "Civic RS",
+            "segment": "Sports Sedan",
+            "price": 2590000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/civic.jpg"
+        },
+        {
+            "id": 105,
+            "brand": "Honda",
+            "model": "Civic Type R",
+            "segment": "Performance Hatchback",
+            "price": 5500000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/civictypeR.jpg"
+        },
+        {
+            "id": 106,
+            "brand": "Honda",
+            "model": "NSX Hybrid",
+            "segment": "Supercar",
+            "price": 30000000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/nsx.jpg"
+        },
+        {
+            "id": 107,
+            "brand": "Honda",
+            "model": "Honda e Electric",
+            "segment": "Electric Hatchback",
+            "price": 1800000,
+            "safety_rating": "5 Star",
+            "image": "images/honda/ehonda.jpg"
+        },
+        {
+            "id": 108,
+            "brand": "Ford",
+            "model": "Figo Ambiente",
+            "segment": "Hatchback",
+            "price": 582000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/figo.jpg"
+        },
+        {
+            "id": 109,
+            "brand": "Ford",
+            "model": "Figo Titanium",
+            "segment": "Hatchback",
+            "price": 782000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/figo.jpg"
+        },
+        {
+            "id": 110,
+            "brand": "Ford",
+            "model": "Aspire Ambiente",
+            "segment": "Sedan",
+            "price": 735000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/aspire.jpg"
+        },
+        {
+            "id": 111,
+            "brand": "Ford",
+            "model": "Aspire Titanium",
+            "segment": "Sedan",
+            "price": 892000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/aspire.jpg"
+        },
+        {
+            "id": 112,
+            "brand": "Ford",
+            "model": "Mustang GT",
+            "segment": "Sports Coupe",
+            "price": 7500000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/mustang.jpg"
+        },
+        {
+            "id": 113,
+            "brand": "Ford",
+            "model": "Mustang Dark Horse",
+            "segment": "Sports Coupe",
+            "price": 9200000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/mustang.jpg"
+        },
+        {
+            "id": 114,
+            "brand": "Ford",
+            "model": "EcoSport Ambiente",
+            "segment": "Compact SUV",
+            "price": 899000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/ecosport.jpg"
+        },
+        {
+            "id": 115,
+            "brand": "Ford",
+            "model": "EcoSport Titanium",
+            "segment": "Compact SUV",
+            "price": 1180000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/ecosport.jpg"
+        },
+        {
+            "id": 116,
+            "brand": "Ford",
+            "model": "EcoSport S",
+            "segment": "Compact SUV",
+            "price": 1290000,
+            "safety_rating": "4 Star",
+            "image": "images/ford/ecosport.jpg"
+        },
+        {
+            "id": 117,
+            "brand": "Ford",
+            "model": "Endeavour Titanium",
+            "segment": "Premium SUV",
+            "price": 3600000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/endeavour.jpg"
+        },
+        {
+            "id": 118,
+            "brand": "Ford",
+            "model": "Endeavour Sport",
+            "segment": "Premium SUV",
+            "price": 4100000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/endeavour.jpg"
+        },
+        {
+            "id": 119,
+            "brand": "Ford",
+            "model": "Ranger XL",
+            "segment": "Pickup Truck",
+            "price": 3200000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/ranger.jpg"
+        },
+        {
+            "id": 120,
+            "brand": "Ford",
+            "model": "Ranger Wildtrak",
+            "segment": "Pickup Truck",
+            "price": 4200000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/ranger.jpg"
+        },
+        {
+            "id": 121,
+            "brand": "Ford",
+            "model": "F-150 Raptor",
+            "segment": "Performance Pickup",
+            "price": 8500000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/f150.jpg"
+        },
+        {
+            "id": 122,
+            "brand": "Ford",
+            "model": "F-150 Platinum",
+            "segment": "Luxury Pickup",
+            "price": 9200000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/f150.jpg"
+        },
+        {
+            "id": 123,
+            "brand": "Ford",
+            "model": "Mustang Mach-E Select",
+            "segment": "Electric SUV",
+            "price": 7000000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/mustangmache.jpg"
+        },
+        {
+            "id": 124,
+            "brand": "Ford",
+            "model": "Mustang Mach-E GT",
+            "segment": "Electric Performance SUV",
+            "price": 8900000,
+            "safety_rating": "5 Star",
+            "image": "images/ford/mustangmache.jpg"
+        },
+        {
+            "id": 125,
+            "brand": "Toyota",
+            "model": "Glanza E",
+            "segment": "Hatchback",
+            "price": 689000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/glanza.jpg"
+        },
+        {
+            "id": 126,
+            "brand": "Toyota",
+            "model": "Glanza S",
+            "segment": "Hatchback",
+            "price": 789000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/glanza.jpg"
+        },
+        {
+            "id": 127,
+            "brand": "Toyota",
+            "model": "Glanza G",
+            "segment": "Hatchback",
+            "price": 929000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/glanza.jpg"
+        },
+        {
+            "id": 128,
+            "brand": "Toyota",
+            "model": "Camry Hybrid",
+            "segment": "Luxury Sedan",
+            "price": 4670000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/camry.jpg"
+        },
+        {
+            "id": 129,
+            "brand": "Toyota",
+            "model": "Urban Cruiser Hyryder E",
+            "segment": "SUV",
+            "price": 1160000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/hyryder.jpg"
+        },
+        {
+            "id": 130,
+            "brand": "Toyota",
+            "model": "Urban Cruiser Hyryder S",
+            "segment": "SUV",
+            "price": 1380000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/hyryder.jpg"
+        },
+        {
+            "id": 131,
+            "brand": "Toyota",
+            "model": "Urban Cruiser Hyryder V",
+            "segment": "SUV",
+            "price": 1820000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/hyryder.jpg"
+        },
+        {
+            "id": 132,
+            "brand": "Toyota",
+            "model": "Fortuner 4x2",
+            "segment": "Premium SUV",
+            "price": 3360000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/fortuner.jpg"
+        },
+        {
+            "id": 133,
+            "brand": "Toyota",
+            "model": "Fortuner 4x4",
+            "segment": "Premium SUV",
+            "price": 3940000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/fortuner.jpg"
+        },
+        {
+            "id": 134,
+            "brand": "Toyota",
+            "model": "Fortuner GR Sport",
+            "segment": "Performance SUV",
+            "price": 5120000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/fortuner.jpg"
+        },
+        {
+            "id": 135,
+            "brand": "Toyota",
+            "model": "Legender 4x2",
+            "segment": "Premium SUV",
+            "price": 4380000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/legender.jpg"
+        },
+        {
+            "id": 136,
+            "brand": "Toyota",
+            "model": "Legender 4x4",
+            "segment": "Premium SUV",
+            "price": 4680000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/legender.jpg"
+        },
+        {
+            "id": 137,
+            "brand": "Toyota",
+            "model": "Land Cruiser ZX",
+            "segment": "Luxury SUV",
+            "price": 21000000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/landcruiser.jpg"
+        },
+        {
+            "id": 138,
+            "brand": "Toyota",
+            "model": "Land Cruiser GR-S",
+            "segment": "Luxury SUV",
+            "price": 23500000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/landcruiser.jpg"
+        },
+        {
+            "id": 139,
+            "brand": "Toyota",
+            "model": "Innova Crysta GX",
+            "segment": "MPV",
+            "price": 1999000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/innovacrysta.jpg"
+        },
+        {
+            "id": 140,
+            "brand": "Toyota",
+            "model": "Innova Crysta VX",
+            "segment": "MPV",
+            "price": 2690000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/innovacrysta.jpg"
+        },
+        {
+            "id": 141,
+            "brand": "Toyota",
+            "model": "Innova Hycross GX",
+            "segment": "Hybrid MPV",
+            "price": 1940000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/innovahycross.jpg"
+        },
+        {
+            "id": 142,
+            "brand": "Toyota",
+            "model": "Innova Hycross ZX Hybrid",
+            "segment": "Hybrid MPV",
+            "price": 3120000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/innovahycross.jpg"
+        },
+        {
+            "id": 143,
+            "brand": "Toyota",
+            "model": "Rumion S",
+            "segment": "MPV",
+            "price": 1040000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/rumion.jpg"
+        },
+        {
+            "id": 144,
+            "brand": "Toyota",
+            "model": "Rumion V",
+            "segment": "MPV",
+            "price": 1340000,
+            "safety_rating": "4 Star",
+            "image": "images/toyota/rumion.jpg"
+        },
+        {
+            "id": 145,
+            "brand": "Toyota",
+            "model": "Hilux STD",
+            "segment": "Pickup Truck",
+            "price": 3040000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/hilux.jpg"
+        },
+        {
+            "id": 146,
+            "brand": "Toyota",
+            "model": "Hilux High AT",
+            "segment": "Pickup Truck",
+            "price": 3780000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/hilux.jpg"
+        },
+        {
+            "id": 147,
+            "brand": "Toyota",
+            "model": "Prius Hybrid",
+            "segment": "Hybrid Sedan",
+            "price": 4500000,
+            "safety_rating": "5 Star",
+            "image": "images/toyota/prius.jpg"
+        }
+    ]
+}
