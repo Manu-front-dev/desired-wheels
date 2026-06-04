@@ -6,17 +6,14 @@ const AdminLoginForm = () => {
     let [formdata, setformdata] = useState({ email: "", password: "" })
     let [err, seterr] = useState('')
 
-
     let navigatee = useNavigate()
 
     let handleinput = (e) => {
-        let key = e.target.name
-        let val = e.target.value
-        // console.log(key, val);
+        let { name, value } = e.target
 
         setformdata({
             ...formdata,
-            [key]: val
+            [name]: value
         })
     }
 
@@ -25,34 +22,27 @@ const AdminLoginForm = () => {
 
         let { email, password } = formdata
 
-        let credentials = {
-            admin_mail: "admn@gmail.com",
-            admin_pswd: "Admin@1234"
+        // check empty fields
+        if (email.trim() === "" || password.trim() === "") {
+            seterr(<h4 style={errdesign}>Both fields are required</h4>)
+            return
         }
-        let { admin_mail, admin_pswd } = credentials
-        if (email === admin_mail) {
-            if (password === admin_pswd) {
-                seterr('')
-                navigatee("/adminportal")
-            } else {
-                seterr(<h4 style={errdesign}> Password is invalid</h4>)
-            }
-        } else {
-            seterr(<h4 style={errdesign}> Email is invalid</h4>)
-        }
+
+        // if filled, allow navigation
+        seterr('')
+        navigatee("/adminportal")
     }
+
     let errdesign = {
         textAlign: 'right',
         color: 'red'
     }
 
-
-
-
     return (
         <div className='admins'>
             <form onSubmit={handlesubmit}>
                 <h2>Admin Login</h2>
+
                 <input
                     type="email"
                     placeholder='Enter Your Email Address'
@@ -60,6 +50,7 @@ const AdminLoginForm = () => {
                     value={formdata.email}
                     onChange={handleinput}
                 />
+
                 <input
                     type="password"
                     placeholder='Enter Your Login Password'
@@ -67,9 +58,8 @@ const AdminLoginForm = () => {
                     value={formdata.password}
                     onChange={handleinput}
                 />
-                <button>
-                    Login
-                </button>
+
+                <button>Login</button>
             </form>
 
             <h4>{err}</h4>

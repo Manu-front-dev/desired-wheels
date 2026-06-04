@@ -1,8 +1,9 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const Segment = () => {
+  let navigate = useNavigate()
 
   let { brand, segments } = useParams()
 
@@ -25,6 +26,9 @@ const Segment = () => {
   return (
     <div className='carsegment'>
       <h1>{brand} {segments} cars</h1>
+      <div className="clickwrap">
+  <button className="clickbtn" onClick={()=>navigate(`/userportal/cars/${brand}`)}>Back to page</button>
+</div>
       {
         filtereddata.length > 0 ?
 

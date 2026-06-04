@@ -13,7 +13,8 @@
 
     .logo {
         width: 250px;
-        .img{
+
+        .img {
             opacity: 0.5;
         }
 
@@ -49,6 +50,47 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    .unav {
+        height: 12vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .unav .logo {
+        width: 120px;
+        height: 60px;
+    }
+
+    .unav .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .unav .links {
+        width: 100%;
+    }
+
+    .unav .links ul {
+        justify-content: center;
+        gap: 15px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .unav .links ul li {
+        font-size: 14px;
+    }
+
+    .unav .links ul li a {
+        font-size: 14px;
+    }
+}
+
 /* forms */
 
 .formcont {
@@ -79,7 +121,7 @@
             transition: all 1s;
             font-size: 22px;
             border-radius: 50%;
-            background: repeating-conic-gradient(#2b2b2b 0deg 45deg,#5a5a5a 45deg 90deg);
+            background: repeating-conic-gradient(#2b2b2b 0deg 45deg, #5a5a5a 45deg 90deg);
             transform: rotate(0deg);
             box-shadow: 1px 1px 10px black;
             animation: roll 1s ease forwards;
@@ -95,6 +137,28 @@
             transform: rotate(360deg);
         }
 
+    }
+}
+
+@media (max-width: 480px) {
+
+    .formcont {
+        width: 90vw;
+        height: auto;
+
+        .buttn {
+            width: 70%;
+            height: 55px;
+
+            button {
+                width: 40%;
+                font-size: 16px;
+            }
+
+            .right {
+                margin-left: 60%;
+            }
+        }
     }
 }
 
@@ -256,6 +320,106 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    .maincont {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .imgcont {
+        height: 60vh;
+        /* reduce height for mobile */
+    }
+
+    .imgcont img {
+        height: 60px;
+        /* smaller car */
+        animation: carroll 6s linear infinite;
+    }
+
+    .divid {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 5%;
+        height: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .divid h1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+
+    .divid .para {
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0;
+        text-align: justify;
+        line-height: 18px;
+    }
+
+
+    @keyframes carroll {
+
+        0% {
+            left: 0;
+            bottom: 0%;
+            transform: rotate(0deg);
+        }
+
+        24% {
+            left: 60%;
+            bottom: 0%;
+            transform: rotate(0deg);
+        }
+
+        25% {
+            left: 60%;
+            bottom: 0%;
+            transform: rotate(-90deg);
+        }
+
+        49% {
+            left: 60%;
+            bottom: 60%;
+            transform: rotate(-90deg);
+        }
+
+        50% {
+            left: 60%;
+            bottom: 60%;
+            transform: rotate(-180deg);
+        }
+
+        74% {
+            left: 0%;
+            bottom: 60%;
+            transform: rotate(-180deg);
+        }
+
+        75% {
+            left: 0;
+            bottom: 80%;
+            transform: rotate(90deg);
+        }
+
+        99% {
+            left: 0;
+            bottom: 0%;
+            transform: rotate(90deg);
+        }
+
+        100% {
+            left: 0;
+            bottom: 0%;
+            transform: rotate(0deg);
+        }
+    }
+}
 
 /* cars page  */
 .usercars {
@@ -328,7 +492,7 @@
 
 .maincarcont {
     min-height: 100vh;
-    background:url('https://www.shutterstock.com/image-illustration/dark-futuristic-background-3d-abstract-600nw-2691505953.jpg') no-repeat center/cover;
+    background: url('https://www.shutterstock.com/image-illustration/dark-futuristic-background-3d-abstract-600nw-2691505953.jpg') no-repeat center/cover;
     padding: 8vh;
     display: flex;
     flex-wrap: wrap;
@@ -348,6 +512,7 @@
     .buttons {
         width: 90%;
         display: flex;
+        flex-wrap: wrap;
         gap: 1vw;
         margin-left: 15vw;
 
@@ -428,9 +593,44 @@
     filter: drop-shadow(2px 2px 10px black);
 }
 
+@media (max-width: 480px) {
+
+    .btnback {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 10px auto;
+        display: block;
+        font-size: 14px;
+        padding: 8px 12px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .maincarcont {
+
+        .buttons {
+            width: 100%;
+            margin-left: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .buttons button {
+            width: 45%;
+            height: 38px;
+            font-size: 12px;
+        }
+    }
+}
+
 .carsegment {
     min-height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://w0.peakpx.com/wallpaper/372/231/HD-wallpaper-f1-amoled-formula-car-black.jpg') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://w0.peakpx.com/wallpaper/372/231/HD-wallpaper-f1-amoled-formula-car-black.jpg') no-repeat center/cover;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -443,6 +643,7 @@
         margin-bottom: 2vh;
         color: white;
     }
+
     .nocars {
         position: absolute;
         height: 75%;
@@ -452,6 +653,30 @@
         color: whitesmoke;
         font-size: 45px;
         text-shadow: 2px 2px 19px whitesmoke;
+    }
+
+    /* ✅ CLICK BUTTON (NOW INSIDE MAIN BLOCK) */
+    .clickwrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        .clickbtn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background: linear-gradient(to right, black, gray);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .clickbtn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px green;
+        }
     }
 
     .segtable {
@@ -530,17 +755,46 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    .about {
+
+        .about-containers {
+            min-height: auto;
+            padding-bottom: 5vh;
+
+            h1 {
+                font-size: 22px;
+                padding-top: 5vh;
+                text-align: center;
+            }
+        }
+
+        .paragraphs {
+            width: 90%;
+            height: auto;
+            padding: 15px;
+            margin: 3vh auto;
+
+            p {
+                line-height: 6vw;
+                font-size: 14px;
+            }
+        }
+    }
+}
 
 .totalmain {
     background:
-    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1400&auto=format&fit=crop')
-    no-repeat center/cover;
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1400&auto=format&fit=crop') no-repeat center/cover;
     padding: 30px;
-    .add{
+
+    .add {
         /* border: 2px solid black; */
         margin-left: 10vw;
-        button{
+
+        button {
             height: 70px;
             width: 140px;
             font-weight: bold;
@@ -603,49 +857,53 @@
     }
 }
 
-.addcont{
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
-    url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1400&auto=format&fit=crop') 
-    no-repeat center/cover;
+.addcont {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1400&auto=format&fit=crop') no-repeat center/cover;
     min-height: 100vh;
     padding: 30px;
-    h1{
+
+    h1 {
         text-align: center;
         font-size: 60px;
         margin: 2vh auto;
         color: whitesmoke;
         text-shadow: 1px 1px 15px whitesmoke;
     }
-    .formbox{
+
+    .formbox {
         width: 40%;
         height: 60vh;
         padding: 30px;
         border-radius: 20px;
-        input{
+
+        input {
             border: 2px solid black;
             border-radius: 10px;
             margin: 1.5vh 3.5vw;
             height: 6vh;
             width: 85%;
-            background:  rgba(255,255,255,0.12);
-            box-shadow: 1px 1px 5px whitesmoke
-;
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: 1px 1px 5px whitesmoke;
         }
-        select{
+
+        select {
             height: 30px;
             border-top-left-radius: 15px;
-            border-bottom-right-radius:15px;
-            background:  rgba(255,255,255,0.12);
+            border-bottom-right-radius: 15px;
+            background: rgba(255, 255, 255, 0.12);
             box-shadow: 1px 1px 5px whitesmoke;
-            color:white;
+            color: white;
         }
-        input::placeholder{
+
+        input::placeholder {
             text-align: center;
             font-weight: bold;
             color: #cbd5e1;
             font-size: larger;
         }
-        button{
+
+        button {
             display: block;
             height: 35px;
             width: 30%;
